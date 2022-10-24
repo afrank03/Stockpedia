@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "symbol": "ABC"
+  },
+  {
+    "id": 2,
+    "symbol": "BCD"
+  },
+  {
+    "id": 3,
+    "symbol": "CDE"
+  },
+  {
+    "id": 4,
+    "symbol": "DEF"
+  },
+  {
+    "id": 5,
+    "symbol": "EFG"
+  },
+  {
+    "id": 6,
+    "symbol": "FGH"
+  },
+  {
+    "id": 7,
+    "symbol": "GHI"
+  },
+  {
+    "id": 8,
+    "symbol": "HIJ"
+  },
+  {
+    "id": 9,
+    "symbol": "IJK"
+  },
+  {
+    "id": 10,
+    "symbol": "JKL"
+  }
+]

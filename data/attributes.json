@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "price"
+  },
+  {
+    "id": 2,
+    "name": "eps"
+  },
+  {
+    "id": 3,
+    "name": "dps"
+  },
+  {
+    "id": 4,
+    "name": "sales"
+  },
+  {
+    "id": 5,
+    "name": "ebitda"
+  },
+  {
+    "id": 6,
+    "name": "free_cash_flow"
+  },
+  {
+    "id": 7,
+    "name": "assets"
+  },
+  {
+    "id": 8,
+    "name": "liabilities"
+  },
+  {
+    "id": 9,
+    "name": "debt"
+  },
+  {
+    "id": 10,
+    "name": "shares"
+  }
+]

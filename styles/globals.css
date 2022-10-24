@@ -1,0 +1,72 @@
+:root {
+  --font-family: "Lato", -apple-system, sans-serif;
+
+  --color-brand-primary: #4776ba;
+  --color-success: #228745;
+  --color-error: #cc4752;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-family);
+  font-size: 15px;
+  background: var(--color-white-background);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 12px 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  background: var(--color-brand-primary);
+  color: #ffffff;
+  border: 0;
+  border-radius: 4px;
+  padding: 8px 12px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: var(--font-family);
+}
+
+label {
+  font-weight: bold;
+}
+
+textarea {
+  display: block;
+  padding: 12px;
+  font-size: 13px;
+}
+
+label + textarea,
+textarea + button {
+  margin-top: 8px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-dark-background-1: #ffffff;
+    --color-white-background: #293140;
+  }
+
+  html {
+    color-scheme: dark;
+  }
+}

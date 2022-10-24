@@ -1,0 +1,40 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section {
+  margin: 24px 0;
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.field {
+  width: 100%;
+}
+
+.message {
+  --message-background: field;
+  --message-color: inherit;
+
+  margin: 8px 0;
+  padding: 12px;
+  font-size: 13px;
+  color: var(--message-color);
+  background: var(--message-background);
+  border-radius: 4px;
+}
+
+.message--error {
+  --message-background: var(--color-error);
+  --message-color: #fff;
+}
+
+.message--success {
+  --message-background: var(--color-success);
+  --message-color: #fff;
+}
